@@ -1,9 +1,14 @@
-# OmniDerma Aesthetica Legal Site
+# OmniDerma Aesthetica Site
 
-Static bilingual legal site for:
+Static bilingual product and legal site for OmniDerma Aesthetica:
 
+- https://omniderma-aesthetica.com/
+- https://omniderma-aesthetica.com/legal/
 - https://omniderma-aesthetica.com/terms/
 - https://omniderma-aesthetica.com/privacy/
+
+The landing page includes English/Greek switching, authentic app screenshots,
+feature and safety information, and links to Google Play and the legal pages.
 
 ## Repository layout
 
@@ -11,6 +16,11 @@ Static bilingual legal site for:
 public/                       Files published by Vercel
   index.html
   assets/
+    landing.css
+    landing.js
+    brand/
+    screens/
+  legal/index.html
   terms/index.html
   privacy/index.html
   robots.txt

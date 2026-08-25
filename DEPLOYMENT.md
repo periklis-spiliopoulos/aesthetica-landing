@@ -2,7 +2,7 @@
 
 ## 1. Create the GitHub repository
 
-Create a new empty repository, for example `aesthetica-legal`. Do not initialize
+Create a new empty repository, for example `aesthetica-landing`. Do not initialize
 it with a README, `.gitignore`, or license because this folder already contains
 them.
 
@@ -11,9 +11,9 @@ From a terminal opened inside this folder:
 ```bash
 git init
 git add .
-git commit -m "Add Aesthetica terms and privacy pages"
+git commit -m "Add Aesthetica landing and legal pages"
 git branch -M main
-git remote add origin https://github.com/YOUR-GITHUB-USERNAME/aesthetica-legal.git
+git remote add origin https://github.com/YOUR-GITHUB-USERNAME/aesthetica-landing.git
 git push -u origin main
 ```
 
@@ -23,7 +23,7 @@ A private repository works with Vercel after GitHub access is authorized.
 ## 2. Import into Vercel
 
 1. In Vercel, select **Add New > Project**.
-2. Import the `aesthetica-legal` GitHub repository.
+2. Import the `aesthetica-landing` GitHub repository.
 3. Confirm the Framework Preset is **Other**.
 4. Leave Root Directory at the repository root.
 5. The included `vercel.json` sets Output Directory to `public` and skips dependency installation.
@@ -33,10 +33,13 @@ A private repository works with Vercel after GitHub access is authorized.
 Test the temporary Vercel URL:
 
 - `/`
+- `/legal/`
 - `/terms/`
 - `/privacy/`
 - `/assets/legal.css`
 - `/assets/legal.js`
+- `/assets/landing.css`
+- `/assets/landing.js`
 - `/robots.txt`
 - `/sitemap.xml`
 
@@ -76,6 +79,8 @@ after DNS validation.
 
 Confirm:
 
+- `https://omniderma-aesthetica.com/`
+- `https://omniderma-aesthetica.com/legal/`
 - `https://omniderma-aesthetica.com/terms/`
 - `https://omniderma-aesthetica.com/privacy/`
 - `https://www.omniderma-aesthetica.com/terms/` redirects to the non-www domain
