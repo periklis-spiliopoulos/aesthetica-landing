@@ -20,7 +20,7 @@
   <title>OmniDerma Aesthetica — Calm skincare, built around you</title>
   <link rel="icon" type="image/png" href="/assets/brand/aesthetica-icon.png">
   <link rel="preload" href="/assets/screens/today.png" as="image">
-  <link rel="stylesheet" href="/assets/landing.css">
+  <link rel="stylesheet" href="/assets/landing.css?v=20260913-appstore">
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skipContent">Skip to content</a>
@@ -39,7 +39,7 @@
         <button type="button" class="lang-button is-active" data-lang="en" aria-pressed="true">EN</button>
         <button type="button" class="lang-button" data-lang="gr" aria-pressed="false">GR</button>
       </div>
-      <a class="header-cta" href="https://play.google.com/store/apps/details?id=health.omniderma.aesthetica" target="_blank" rel="noopener" data-i18n="navDownload">Get the app</a>
+      <a class="header-cta" href="#download" data-i18n="navDownload">Get the app</a>
     </div>
   </header>
 
@@ -52,13 +52,22 @@
         <h1 data-i18n-html="heroTitle">Calm skincare.<br><em>Built around you.</em></h1>
         <p class="hero-lead" data-i18n="heroLead">Aesthetica turns your skin goals, preferences, and daily life into a routine you can actually follow — with thoughtful guidance at every step.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="https://play.google.com/store/apps/details?id=health.omniderma.aesthetica" target="_blank" rel="noopener">
-            <span class="play-mark" aria-hidden="true">▶</span>
-            <span>
-              <small data-i18n="playSmall">GET IT ON</small>
-              <strong>Google Play</strong>
-            </span>
-          </a>
+          <div class="store-buttons">
+            <a class="button button-primary button-store" href="https://play.google.com/store/apps/details?id=health.omniderma.aesthetica" target="_blank" rel="noopener">
+              <span class="play-mark" aria-hidden="true">▶</span>
+              <span>
+                <small data-i18n="playSmall">GET IT ON</small>
+                <strong>Google Play</strong>
+              </span>
+            </a>
+            <a class="button button-app-store button-store" href="https://apps.apple.com/gr/app/omniderma-aesthetica/id6808641112" target="_blank" rel="noopener">
+              <img class="apple-mark" src="/assets/brand/apple-logo.svg" alt="" aria-hidden="true">
+              <span>
+                <small data-i18n="appStoreSmall">DOWNLOAD ON THE</small>
+                <strong>App Store</strong>
+              </span>
+            </a>
+          </div>
           <a class="button button-secondary" href="#inside" data-i18n="heroSecondary">See how it feels</a>
         </div>
         <ul class="trust-list" aria-label="Product qualities">
@@ -218,17 +227,23 @@
       </div>
     </section>
 
-    <section class="download-section">
+    <section class="download-section" id="download">
       <div class="download-orbit" aria-hidden="true"></div>
       <div class="download-inner" data-reveal>
         <img class="download-icon" src="/assets/brand/aesthetica-icon.png" alt="Aesthetica app icon">
         <p class="eyebrow" data-i18n="downloadEyebrow">READY WHEN YOU ARE</p>
         <h2 data-i18n-html="downloadTitle">Your routine can feel<br><em>this calm.</em></h2>
-        <p data-i18n="downloadBody">Download Aesthetica on Google Play and start building a routine around your skin and your everyday life.</p>
-        <a class="button button-primary download-button" href="https://play.google.com/store/apps/details?id=health.omniderma.aesthetica" target="_blank" rel="noopener">
-          <span class="play-mark" aria-hidden="true">▶</span>
-          <span><small data-i18n="playSmall">GET IT ON</small><strong>Google Play</strong></span>
-        </a>
+        <p data-i18n="downloadBody">Download Aesthetica from the App Store or Google Play and start building a routine around your skin and your everyday life.</p>
+        <div class="download-actions store-buttons">
+          <a class="button button-primary button-store" href="https://play.google.com/store/apps/details?id=health.omniderma.aesthetica" target="_blank" rel="noopener">
+            <span class="play-mark" aria-hidden="true">▶</span>
+            <span><small data-i18n="playSmall">GET IT ON</small><strong>Google Play</strong></span>
+          </a>
+          <a class="button button-app-store button-store" href="https://apps.apple.com/gr/app/omniderma-aesthetica/id6808641112" target="_blank" rel="noopener">
+            <img class="apple-mark" src="/assets/brand/apple-logo.svg" alt="" aria-hidden="true">
+            <span><small data-i18n="appStoreSmall">DOWNLOAD ON THE</small><strong>App Store</strong></span>
+          </a>
+        </div>
       </div>
     </section>
   </main>
@@ -251,6 +266,6 @@
     </div>
   </footer>
 
-  <script src="/assets/landing.js" defer></script>
+  <script src="/assets/landing.js?v=20260913-appstore" defer></script>
 </body>
 </html>

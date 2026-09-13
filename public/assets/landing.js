@@ -8,7 +8,7 @@ const copy = {
     heroEyebrow: 'YOUR SKINCARE, MADE PERSONAL',
     heroTitle: 'Calm skincare.<br><em>Built around you.</em>',
     heroLead: 'Aesthetica turns your skin goals, preferences, and daily life into a routine you can actually follow — with thoughtful guidance at every step.',
-    playSmall: 'GET IT ON', heroSecondary: 'See how it feels',
+    playSmall: 'GET IT ON', appStoreSmall: 'DOWNLOAD ON THE', heroSecondary: 'See how it feels',
     trustOne: 'Evidence-informed', trustTwo: 'English & Greek', trustThree: 'Designed for real life',
     noteOne: 'AM + PM routines', noteTwo: 'Made for your skin', previewEyebrow: 'A CALMER WAY TO CARE FOR YOUR SKIN',
     manifestoEyebrow: 'A CALMER WAY TO CARE FOR YOUR SKIN',
@@ -34,7 +34,7 @@ const copy = {
     principleTwoTitle: 'Progress, not perfection', principleTwoBody: 'The goal is a routine you can live with — not pressure to become someone else.',
     principleThreeTitle: 'Privacy you can understand', principleThreeBody: 'Clear controls help you review your profile, reset saved data, and request account deletion.',
     downloadEyebrow: 'READY WHEN YOU ARE', downloadTitle: 'Your routine can feel<br><em>this calm.</em>',
-    downloadBody: 'Download Aesthetica on Google Play and start building a routine around your skin and your everyday life.',
+    downloadBody: 'Download Aesthetica from the App Store or Google Play and start building a routine around your skin and your everyday life.',
     footerTagline: 'Calm skincare, built around you.', footerTerms: 'Terms', footerPrivacy: 'Privacy', footerContact: 'Contact',
     footerDisclaimer: 'Educational skincare guidance. Not a medical diagnosis.'
   },
@@ -45,7 +45,7 @@ const copy = {
     heroEyebrow: 'Η ΠΕΡΙΠΟΙΗΣΗ ΣΟΥ, ΠΡΟΣΑΡΜΟΣΜΕΝΗ ΣΕ ΕΣΕΝΑ',
     heroTitle: 'Ήρεμη περιποίηση.<br><em>Φτιαγμένη για εσένα.</em>',
     heroLead: 'Το Aesthetica μετατρέπει τους στόχους, τις προτιμήσεις και την καθημερινότητά σου σε μια ρουτίνα που μπορείς πραγματικά να ακολουθήσεις — με ουσιαστική καθοδήγηση σε κάθε βήμα.',
-    playSmall: 'ΔΙΑΘΕΣΙΜΟ ΣΤΟ', heroSecondary: 'Δες πώς λειτουργεί',
+    playSmall: 'ΔΙΑΘΕΣΙΜΟ ΣΤΟ', appStoreSmall: 'ΛΗΨΗ ΑΠΟ ΤΟ', heroSecondary: 'Δες πώς λειτουργεί',
     trustOne: 'Τεκμηριωμένη προσέγγιση', trustTwo: 'Ελληνικά & Αγγλικά', trustThree: 'Για την πραγματική ζωή',
     noteOne: 'Πρωινή + βραδινή ρουτίνα', noteTwo: 'Για τις ανάγκες σου', previewEyebrow: 'ΕΝΑΣ ΠΙΟ ΗΡΕΜΟΣ ΤΡΟΠΟΣ ΝΑ ΦΡΟΝΤΙΖΕΙΣ ΤΟ ΔΕΡΜΑ ΣΟΥ',
     manifestoEyebrow: 'ΕΝΑΣ ΠΙΟ ΗΡΕΜΟΣ ΤΡΟΠΟΣ ΝΑ ΦΡΟΝΤΙΖΕΙΣ ΤΟ ΔΕΡΜΑ ΣΟΥ',
@@ -71,7 +71,7 @@ const copy = {
     principleTwoTitle: 'Πρόοδος, όχι τελειότητα', principleTwoBody: 'Στόχος είναι μια ρουτίνα με την οποία μπορείς να ζήσεις — όχι η πίεση να γίνεις κάποιος άλλος.',
     principleThreeTitle: 'Απόρρητο που καταλαβαίνεις', principleThreeBody: 'Ξεκάθαρα εργαλεία σε βοηθούν να ελέγξεις το προφίλ σου, να επαναφέρεις αποθηκευμένα δεδομένα και να ζητήσεις διαγραφή λογαριασμού.',
     downloadEyebrow: 'ΟΤΑΝ ΕΙΣΑΙ ΕΤΟΙΜΗ Ή ΕΤΟΙΜΟΣ', downloadTitle: 'Η ρουτίνα σου μπορεί να είναι<br><em>τόσο ήρεμη.</em>',
-    downloadBody: 'Κατέβασε το Aesthetica από το Google Play και χτίσε μια ρουτίνα γύρω από το δέρμα και την καθημερινότητά σου.',
+    downloadBody: 'Κατέβασε το Aesthetica από το App Store ή το Google Play και χτίσε μια ρουτίνα γύρω από το δέρμα και την καθημερινότητά σου.',
     footerTagline: 'Ήρεμη περιποίηση, φτιαγμένη για εσένα.', footerTerms: 'Όροι', footerPrivacy: 'Απόρρητο', footerContact: 'Επικοινωνία',
     footerDisclaimer: 'Εκπαιδευτική καθοδήγηση περιποίησης. Δεν αποτελεί ιατρική διάγνωση.'
   }

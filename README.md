@@ -8,7 +8,7 @@ Static bilingual product and legal site for OmniDerma Aesthetica:
 - https://omniderma-aesthetica.com/privacy/
 
 The landing page includes English/Greek switching, authentic app screenshots,
-feature and safety information, and links to Google Play and the legal pages.
+feature and safety information, and links to the App Store, Google Play, and the legal pages.
 
 ## Repository layout
 
